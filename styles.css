@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none; 
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+img {
+    border-radius: 20px; 
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; /* Adjusted to distribute space evenly */
+    align-items: center; 
+    padding: 10px 20px; /* Add some padding for better spacing */
+    background-color: #1f2937;
+}
+
+.header a {
+    color: #e5e7eb;
+}
+
+.header a:hover {
+    color: grey;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header li {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: #1f2937;
+    padding: 20px; /* Padding for container */
+    width: 100%; /* Ensure container is full width */
+    margin: 0 auto; /* Center the container */
+}
+
+.sub-header {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; /* Adjusted to align items */
+    width: 100%; 
+    padding: 20px;
+}
+
+.text-content {
+    display: flex; 
+    flex-direction: column; 
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.sub-header h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sub-header h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none; 
+    outline: none; 
+    border-radius: 25px; 
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.signup1:hover {
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+.sub-header img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 40px;
+}
+
+.carrosel {
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.images {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: wrap; /* Allow images to wrap if needed */
+}
+
+.carrosel img {
+    border-radius: 20px; 
+    max-width: 100%; 
+    height: auto; 
+    flex: 1 1 200px; /* Allow images to resize, maintaining at least 200px width */
+    margin-bottom: 70px;
+}
