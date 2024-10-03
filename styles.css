@@ -175,8 +175,6 @@ img {
 }
 
 .cta{
-    justify-content: space-around;
-    align-items:center;
     padding-top: 10px;
     padding-left: 5%;
     color: #e5e7eb;
@@ -185,6 +183,13 @@ img {
 }
 .cta-tittle{
     font-size: 36px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+.text-banner{
+    margin-left: -20px;
+    font-size: large;
 }
 
 .signup2 {
