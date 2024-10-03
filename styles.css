@@ -87,6 +87,8 @@ img {
     padding: 10px 20px;
     transition: background-color 0.3s;
     font-weight: bold;
+    max-width: 60%;
+    margin-left: 100px;
 }
 
 .signup1:hover {
@@ -101,8 +103,14 @@ img {
 }
 
 .carrosel {
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: center; 
+}
+
+.carrosel-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .images {
@@ -117,5 +125,91 @@ img {
     max-width: 100%; 
     height: auto; 
     flex: 1 1 200px; /* Allow images to resize, maintaining at least 200px width */
-    margin-bottom: 70px;
+    margin-bottom: -40px;
+}
+
+.names1 , .names2 ,.names3{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.names1{
+    color: rgb(150, 150, 54);
+}
+
+.names2{
+    color: pink;
+}
+
+.names3{
+    color: rgb(212, 114, 33);
+}
+.quote-container{
+    background-color: #e5e7eb ;
+  
+}
+
+.quote{
+    padding-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: -15px;}
+
+.quoter{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 65%;
+    text-wrap: nowrap;
+    padding-bottom: 20px;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    margin: 25px 70px;
+    display: flex;
+    align-items: center;
+    gap: 190px;
+    border-radius: 10px;
+
+}
+
+.cta{
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 10px;
+    padding-left: 5%;
+    color: #e5e7eb;
+    margin-left: 5%;
+    
+}
+.cta-tittle{
+    font-size: 36px;
+}
+
+.signup2 {
+    font-size: large;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border:  2px solid #e5e7eb; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    max-width: 60%;
+    margin-left: 100px;
+}
+
+.signup2:hover {
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+
+.footer{
+    background-color:#1f2937 ;
+    padding: 2px;
+    text-align: center;
+    font-size: medium;
+    color: #e5e7eb;
 }
